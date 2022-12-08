@@ -3,12 +3,42 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+    <!-- MyServlet   -->
     <servlet>
         <servlet-name>my</servlet-name>
         <servlet-class>com.qf.servlet.MyServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
         <servlet-name>my</servlet-name>
         <url-pattern>/myservlet</url-pattern>
+    </servlet-mapping>
+    <!--  GenServlet -->
+    <servlet>
+        <servlet-name>gs</servlet-name>
+        <servlet-class>com.qf.servlet.GenServlet</servlet-class>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>gs</servlet-name>
+        <url-pattern>/gs</url-pattern>
+    </servlet-mapping>
+    <!--HttpsServlet-->
+    <servlet>
+        <servlet-name>hs</servlet-name>
+        <servlet-class>com.qf.servlet.HttpsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>hs</servlet-name>
+        <url-pattern>/hs</url-pattern>
+    </servlet-mapping>
+    <!--*-->
+    <servlet>
+        <servlet-name>action</servlet-name>
+        <servlet-class>com.qf.servlet.ActionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>action</servlet-name>
+        <url-pattern>*.action</url-pattern>
     </servlet-mapping>
 </web-app>

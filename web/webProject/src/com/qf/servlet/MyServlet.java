@@ -8,7 +8,7 @@ import java.util.Date;
 public class MyServlet implements Servlet {
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
-
+        System.out.println("MyServlet init");
     }
 
     @Override
@@ -20,6 +20,7 @@ public class MyServlet implements Servlet {
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
         System.out.println("My First Web project");
         System.out.println(new Date());
+        System.out.println("123");
     }
 
     @Override
