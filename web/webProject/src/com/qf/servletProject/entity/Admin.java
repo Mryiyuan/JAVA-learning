@@ -5,7 +5,17 @@ public class Admin {
     private String password;
     private String phone;
     private String address;
-
+//无参
+    public Admin() {
+    }
+//有参
+    public Admin(String username, String password, String phone, String address) {
+        this.username = username;
+        this.password = password;
+        this.phone = phone;
+        this.address = address;
+    }
+//get和set
     public String getUsername() {
         return username;
     }
@@ -38,13 +48,7 @@ public class Admin {
         this.address = address;
     }
 
-    public Admin(String username, String password, String phone, String address) {
-        this.username = username;
-        this.password = password;
-        this.phone = phone;
-        this.address = address;
-    }
-
+//toString
     @Override
     public String toString() {
         return "Admin{" +

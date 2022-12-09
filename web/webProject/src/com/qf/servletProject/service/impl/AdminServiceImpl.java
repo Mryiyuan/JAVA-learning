@@ -32,6 +32,15 @@ public class AdminServiceImpl implements AdminService {
 
     @Override
     public List<Admin> showAllAdmin() {
-        return null;
+        List<Admin> admins = null;
+        try {
+            Dbutils.begin();
+            admins=adminDao.selectAll();
+            Dbutils.commit();
+        } catch (Exception e) {
+            Dbutils.rollback();
+            e.printStackTrace();
+        }
+        return admins;
     }
 }
