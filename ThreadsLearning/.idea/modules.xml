@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Thread Synchronized.iml" filepath="$PROJECT_DIR$/Thread Synchronized.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadsLearning.iml" filepath="$PROJECT_DIR$/ThreadsLearning.iml" />
     </modules>
   </component>
 </project>
