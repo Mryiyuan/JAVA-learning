@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Data Structure/Algorithm/Algorithm.iml" filepath="$PROJECT_DIR$/Data Structure/Algorithm/Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Data Structure/Data Structure.iml" filepath="$PROJECT_DIR$/Data Structure/Data Structure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA-learning.iml" filepath="$PROJECT_DIR$/JAVA-learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Data Structure/Queue/Queue.iml" filepath="$PROJECT_DIR$/Data Structure/Queue/Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Data Structure/StackDemo/StackDemo.iml" filepath="$PROJECT_DIR$/Data Structure/StackDemo/StackDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadsLearning/ThreadsLearning.iml" filepath="$PROJECT_DIR$/ThreadsLearning/ThreadsLearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Data Structure/Tree/Tree.iml" filepath="$PROJECT_DIR$/Data Structure/Tree/Tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm.iml" filepath="$PROJECT_DIR$/algorithm/algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hellow world/hellow world.iml" filepath="$PROJECT_DIR$/hellow world/hellow world.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Data Structure/recursion/recursion.iml" filepath="$PROJECT_DIR$/Data Structure/recursion/recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/review/review.iml" filepath="$PROJECT_DIR$/review/review.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
+    </modules>
+  </component>
+</project>
